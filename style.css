@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html,body{
+	height: 100%;
+	height: 100%;
+}
+#wrap{
+	width: 100%;
+	height: 100%;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+#wrap header{
+	width: 100%;
+	height: 80px;
+	
+}
+#wrap header section{
+	width: 100%;
+	height: 40px;
+
+}
+#wrap header section h1{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 40px;
+	background: rgba(255,0,0,0.3);
+	
+}
+#wrap header nav{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: -webkit-flex;
+	text-align: center;
+}
+#wrap header nav a{
+	-webkit-flex:1;
+	height: 100%;
+	background:rgba(0,0,0,.3);
+}
+#wrap .bg{
+	color:red;
+	background: rgba(0,255,255,0.3);
+}
+#wrap .main-box{
+	width: 100%;
+	-webkit-flex:1;
+}
+#wrap .main-box .main{
+	width: 80%;
+	height: 100%;
+	float: left;
+	background: green;
+	display: -webkit-flex;
+	-webkit-flex-direction:column;
+}
+#wrap .main-box .main .l1{
+	width: 100%;
+	height: 100%;
+	background: orange;
+}
+#wrap .main-box .main .l2{
+	width: 100%;
+	height: 100%;
+	background: pink;
+}
+
+
+#wrap .main-box aside{
+	float: right;
+	width: 20%;
+	height: 100%;
+	background: red;
+}
+#wrap footer{
+	width: 100%;
+	height: 50px;
+	line-height: 20px;
+	text-align: center;
+}
+#wrap footer p{
+	color: #666;
+	font-size: 12px;
+}
